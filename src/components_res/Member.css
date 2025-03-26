@@ -1,0 +1,304 @@
+@media (max-width:992px) {
+    .memcard {
+        width: 380px;
+        height: 380px;
+
+        a {
+            margin-left: 30px;
+        }
+    }
+
+    h4 {
+        letter-spacing: 1.5px;
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 0 0 0 25px !important;
+        font-family: 'Roundelay-Thin';
+        color: rgb(255, 111, 0);
+    }
+
+
+
+}
+
+@media (max-width:768px) {
+
+    .memcard {
+        width: 300px;
+        height: 300px;
+    }
+
+    .memtext {
+        width: 100%;
+    }
+
+
+    .memtext {
+
+        h1 {
+            /* background-color: red; */
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+            margin: 0 0 0 2px;
+            font-family: 'ArgentumSans-Black';
+            color: rgb(255, 111, 0);
+        }
+
+        h2 {
+            /* background-color: antiquewhite; */
+            letter-spacing: 2px;
+            font-size: 1.1rem;
+            margin: 0 0 0 2px;
+            color: rgb(255, 111, 0);
+        }
+
+        h5 {
+            letter-spacing: 1.5px;
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 0 0 0 10px;
+            font-family: 'Roundelay-Thin';
+            color: rgb(255, 111, 0);
+        }
+
+        h4 {
+            letter-spacing: 1.5px;
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 0 0 0 18px;
+            font-family: 'Roundelay-Thin';
+            color: rgb(255, 111, 0);
+        }
+
+        p {
+            letter-spacing: 1.3px;
+            font-size: 0.8rem;
+            /* margin: 5px 0 10px 0; */
+            color: rgb(255, 111, 0);
+        }
+
+        .email {
+            font-size: 1.1rem;
+            letter-spacing: 1.5px;
+            margin: 0 0 0 45px;
+            color: rgb(255, 111, 0);
+            font-family: 'Roundelay-Thin';
+            display: none;
+        }
+
+        div {
+            /* background-color: red; */
+            display: flex;
+            gap: 10px;
+            width: fit-content;
+            margin-left: 70px;
+        }
+
+        a {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            background: transparent;
+            /* border: 2px solid #C70039; */
+            border-radius: 50%;
+            font-size: 5px;
+            color: #fff;
+            text-decoration: none;
+            transition: background 0.5s ease, color 0.5s ease;
+            animation: slideLeft 1s ease forwards;
+            animation-delay: calc(0.2s * var(--i));
+        }
+
+        a:hover {
+            background: white;
+            color: #000;
+        }
+
+
+    }
+}
+
+@media (max-width:576px) {
+    .M-main-text {
+        /* background-color: rebeccapurple; */
+        font-size: 5rem !important;
+    }
+
+    .M-sub-text {
+        letter-spacing: 15px;
+    }
+
+    .memcard {
+        width: 260px;
+        height: 260px;
+    }
+
+    .memtext {
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        h2 {
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        h4 {
+            margin-left: 10%;
+            width: fit-content;
+            /* background-color: red; */
+        }
+
+        a {
+            margin: -6% 0 0 0;
+            /* background-color: red; */
+        }
+    }
+
+}
+
+@media (max-width:420px) {
+    .M-main-text {
+        font-size: 3.6rem !important;
+        font-weight: bold;
+        color: white;
+        letter-spacing: 4px !important;
+    }
+
+    .M-sub-text {
+        /* display: none; */
+        position: absolute;
+        top: 54%;
+        width: 100%;
+        left: 49.6%;
+        font-size: 10px !important;
+        letter-spacing: 10px;
+        color: white;
+        font-weight: 600;
+
+    }
+}
+
+@media (max-width:320px) {
+
+    .M-stavya {
+        filter: invert(100%) brightness(10000%);
+
+        width: 17% !important;
+        margin-top: -2% !important;
+        left: 80% !important;
+    }
+
+    .M-deep {
+        filter: invert(100%) brightness(10000%);
+
+        position: absolute;
+        width: 18% !important;
+        margin-top: 4% !important;
+        left: 80% !important;
+    }
+
+    .M-line {
+        filter: invert(100%) brightness(10000%);
+
+        position: absolute;
+        margin-top: 6% !important;
+        left: 80% !important;
+        width: 16% !important;
+    }
+
+    .M-main-text {
+        font-size: 3.7rem !important;
+        font-weight: bold;
+        color: white;
+        letter-spacing: 4px !important;
+    }
+
+    .M-sub-text {
+        /* display: none; */
+        position: absolute;
+        top: 54%;
+        width: 100%;
+        left: 49.6%;
+        font-size: 10px !important;
+        letter-spacing: 10px;
+        color: white;
+        font-weight: 600;
+
+    }
+
+    .email {
+        display: none;
+    }
+
+    .memcard {
+        /* background-color: red; */
+        opacity: 1;
+        width: fit-content;
+        width: 300px !important;
+        height: 300px !important;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 50px;
+        border-radius: 100%;
+    }
+
+    .memtext {
+
+        h1 {
+            /* background-color: red; */
+            font-size: 1.5rem;
+
+        }
+
+        h2 {
+
+            font-weight: 600;
+            font-size: 1rem;
+
+        }
+
+        h5 {
+            letter-spacing: 1.5px;
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 0 0 0 15px;
+        }
+
+        h4 {
+            font-size: 1rem;
+            letter-spacing: 1.7px;
+            font-weight: 600;
+            margin: 0 0 0 25px;
+
+        }
+
+        p {
+            letter-spacing: 1.4px;
+            font-size: 0.8rem;
+            /* margin: 5px 0 10px 0; */
+            color: rgb(255, 111, 0);
+        }
+
+        .email {
+            display: none;
+        }
+
+        div {
+            /* background-color: red; */
+            display: flex;
+            gap: 10px;
+            width: fit-content;
+            /* margin-left: 70px; */
+        }
+
+
+
+
+    }
+
+
+
+}

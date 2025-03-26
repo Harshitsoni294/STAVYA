@@ -1,0 +1,78 @@
+@media (max-width:992px) {
+    .card {
+        /* background-color: green; */
+        width: 400px;
+        height: 400px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .sj-member-page {
+
+        /* background-color: red; */
+        .sj-main-text {
+            font-size: 5rem;
+            /* background-color: yellow; */
+        }
+
+        .sj-sub-text {
+            width: 100%;
+            /* background-color: green; */
+            letter-spacing: 20px;
+        }
+    }
+
+    .wrapper-01 {
+        margin-top: 0%;
+        /* background-color: yellow; */
+
+        .card {
+            /* background-color: green; */
+            width: 345px;
+            height: 300px;
+        }
+
+        .back {
+
+            .head-data {
+                margin: 0 0 0 0;
+
+                h4 {
+                    color: rgb(217, 101, 0);
+                    font-weight: 600;
+                }
+
+                /* background-color: gray; */
+                p {
+                    margin: 0 0 5px 0;
+                    /* background-color: red; */
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width:576px) {
+    .wrapper-01 {
+        margin-top: 0%;
+    }
+}
+
+@media (max-width:420px) {
+    .sj-member-page {
+
+        /* background-color: red; */
+        .sj-main-text {
+            font-size: 3rem;
+            /* background-color: yellow; */
+        }
+
+        .sj-sub-text {
+            width: 100%;
+            /* background-color: green; */
+            letter-spacing: 12px;
+        }
+    }
+}

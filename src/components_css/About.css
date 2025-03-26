@@ -1,0 +1,265 @@
+.about-main-div {
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    height: 80vh;
+    margin-top: 10%;
+
+    .about {
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+        color: white;
+        width: fit-content;
+        margin: 0 0 0 10%;
+    }
+
+    .about-line {
+        width: 25%;
+        height: 2.5px;
+        opacity: 0.4;
+        background-color: #ffffff;
+        border: none;
+        margin: 2.5px 0 0 3%;
+        filter: invert(51%) sepia(100%) saturate(1000%) hue-rotate(-15deg) brightness(100%) contrast(95%);
+    }
+
+    .about-img-div {
+        position: relative;
+
+    }
+
+}
+
+.about-para {
+    color: #ffff;
+    /* background-color: red; */
+    width: 50%;
+
+    .dp-01 {
+        position: absolute;
+        opacity: 0.3;
+        width: 15vw;
+        margin: 0 0 0 8px;
+        filter: invert(51%) sepia(100%) saturate(1000%) hue-rotate(-15deg) brightness(100%) contrast(95%);
+    }
+
+    .img-eyes {
+        position: absolute;
+        width: 6%;
+        margin: -3.5% 0 0 14%;
+    }
+
+
+    .para-01 {
+        /* background-color: red; */
+        margin: 10px 0 30px 60px;
+        font-size: 1.2rem;
+        text-align: start;
+        line-height: 25px;
+        letter-spacing: 1.2px;
+        font-weight: 400;
+        font-family: 'Roundelay-Thin';
+        /* width: 50%; */
+    }
+
+    .para-02 {
+        /* background-color: yellow; */
+        margin: 0 0 30px 60px;
+        letter-spacing: 1.2px;
+        font-weight: 400;
+        font-size: 1.2rem;
+        text-align: start;
+        line-height: 25px;
+        font-family: 'Roundelay-Thin';
+        /* width: 50%; */
+    }
+
+    .para-03 {
+        /* background-color: green; */
+        margin: 15px 0 30px 60px;
+        letter-spacing: 1.2px;
+        font-weight: 400;
+        font-size: 1.2rem;
+        text-align: start;
+        font-family: 'Roundelay-Thin';
+        /* width: 50%; */
+    }
+
+    .para-res {
+        margin: 15px 0 30px 40px;
+        letter-spacing: 1px;
+        font-size: 1rem;
+        text-align: start;
+        font-family: 'Roundelay-Thin';
+        visibility: hidden;
+    }
+}
+
+
+.chakra-div {
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: start;
+    /* background-color: blue; */
+    width: 50%;
+    /* height: fit-content; */
+    /* background-color: blue; */
+
+    .my-div-01 {
+        font-family: 'Roundelay-Thin';
+        /* flex: 1; */
+        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color: white;
+        /* margin: 8% 0 0 33%; */
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 36%;
+        right: 20%;
+        top: 15%;
+        /* background-color: red; */
+        /* background-color: purple; */
+        /* position: relative; */
+
+        .contentsy1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            position: absolute;
+            top: 17%;
+            left: 5.5%;
+        }
+
+        span {
+            /* background-color: yellow; */
+            color: #ff0057;
+            font-size: 3rem;
+        }
+
+        img {
+            /* top: 40%; */
+            /* width: 20rem; */
+            filter: invert(51%) sepia(100%) saturate(1000%) hue-rotate(-15deg) brightness(100%) contrast(95%);
+            animation: rotateImage 15s linear infinite;
+        }
+    }
+
+    .my-div-02 {
+        font-family: 'Roundelay-Thin';
+        font-size: 1.4rem;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color: white;
+        width: 44%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* background-color: red; */
+        position: relative;
+        right: 16%;
+        top: 8%;
+        margin-left: auto;
+        /* margin-top: 10%; */
+        /* height: 100%; */
+
+        .contentsy2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            position: absolute;
+            top: 30%;
+            left: 20%;
+        }
+
+        span {
+            color: #ff0057;
+            font-size: 3rem;
+        }
+
+        img {
+            width: 100%;
+            filter: invert(51%) sepia(100%) saturate(1000%) hue-rotate(-15deg) brightness(100%) contrast(95%);
+            animation: rotateImage 15s linear infinite;
+        }
+    }
+
+    .my-div-03 {
+        font-family: 'Roundelay-Thin';
+        font-size: 1.4rem;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color: white;
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin: -20% 0 0 14.2%; */
+        /* background-color: yellow; */
+        /* border-radius: 100%; */
+        justify-content: end;
+        position: relative;
+        bottom: 8%;
+        left: 5%;
+        height: fit-content;
+
+        .contentsy3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            position: absolute;
+            top: 30%;
+            left: 19%;
+
+            span {
+                color: #ff0057;
+                font-size: 3rem;
+            }
+        }
+
+
+
+        img {
+            width: 100%;
+            filter: invert(51%) sepia(100%) saturate(1000%) hue-rotate(-15deg) brightness(100%) contrast(95%);
+            animation: rotateImage 15s linear infinite;
+        }
+    }
+
+
+    .dp-02 {
+        position: absolute;
+        /* background-color: red;   */
+        margin: 5% 0 0 69%;
+        opacity: 0.2;
+    }
+
+    .dp-line {
+        position: absolute;
+        width: 23%;
+        height: 2.5px;
+        opacity: 0.2;
+        background-color: #ffffff;
+        border: none;
+        margin: 74px 0 0 71%;
+    }
+
+    .stv-logo {
+        width: 25%;
+        height: fit-content;
+        margin: -3.1% 0 0 70.5%;
+        opacity: 0.3;
+        position: absolute;
+        filter: invert(100%) brightness(10000%);
+    }
+
+}

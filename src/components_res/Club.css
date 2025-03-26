@@ -1,0 +1,159 @@
+@media (max-width:992px) {
+    .container .card {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 350px;
+        height: 430px;
+        transition: 0.5s;
+    }
+
+    .container .card .face.face2 .content p {
+        margin: 0;
+        padding: 0;
+        height: fit-content;
+        font-weight: 300;
+        font-size: 1rem;
+        margin-bottom: 5px;
+        /* background-color: red; */
+    }
+
+    .content a {
+        color: #333;
+        ;
+        padding: 5px;
+        border: 2px solid #333;
+        /* background-color: red; */
+        /* background: #000; */
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .container .card {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 320px;
+        height: 460px;
+        transition: 0.5s;
+    }
+
+    .container .card .face.face2 .content p {
+        margin: 0;
+        padding: 0;
+        height: fit-content;
+        font-weight: 600;
+        font-size: 1rem;
+        /* background-color: red; */
+    }
+
+    .container .card .face.face2 .content a {
+        /* margin: 15px 0 0; */
+        margin-top: 5px;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 900;
+        /* font-size: 1rem; */
+        color: #333;
+        padding: 5px;
+        border: 2px solid #333;
+    }
+}
+
+@media (max-width:576px) {
+    .container .card {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 5%;
+        width: 450px;
+        height: 460px;
+        transition: 0.5s;
+
+    }
+}
+
+@media (max-width:420px) {
+
+    .C-stavya {
+        filter: invert(100%) brightness(10000%);
+
+        width: 17% !important;
+        margin-top: 10% !important;
+        left: 80% !important;
+    }
+
+    .C-deep {
+        filter: invert(100%) brightness(10000%);
+
+        position: absolute;
+        width: 18% !important;
+        margin-top: 4% !important;
+        left: 80% !important;
+    }
+
+    .C-line {
+        filter: invert(100%) brightness(10000%);
+
+        position: absolute;
+        margin-top: 6% !important;
+        left: 80% !important;
+        width: 16% !important;
+    }
+
+    .C-main-text {
+        font-size: 4.7rem !important;
+        font-weight: bold;
+        color: white;
+        letter-spacing: 4px !important;
+    }
+
+    .C-sub-text {
+        /* display: none; */
+        position: absolute;
+        top: 54%;
+        width: 100%;
+        left: 49.6%;
+        font-size: 8px !important;
+        letter-spacing: 7px;
+        color: white;
+        font-weight: 600;
+
+    }
+
+
+    .C-image-div {
+
+        .C-deep {
+            visibility: hidden;
+        }
+
+        .C-stavya {
+            visibility: hidden;
+        }
+
+        .C-line {
+            visibility: hidden;
+        }
+
+        .C-chakra09 {
+            width: 35%;
+        }
+
+    }
+
+    .container {
+        display: block;
+        margin-left: 1.5%;
+    }
+
+    .container .card {
+        position: relative;
+        cursor: pointer;
+        width: 100%;
+        height: auto;
+    }
+
+}

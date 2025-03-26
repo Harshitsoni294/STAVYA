@@ -1,0 +1,110 @@
+.homepage-main {
+    /* display: inline-block; */
+    /* justify-content: start;
+    align-items: center; */
+    /* top: 0; */
+    width: 100vw;
+    height: 80vh;
+    /* background-color: red; */
+}
+
+
+
+.img-div {
+    position: relative;
+    background-color: red;
+
+    .ch-img-02 {
+        position: absolute;
+        filter: invert(100%) brightness(10000%);
+        width: 40%;
+        opacity: 0.2;
+        margin-left: 63%;
+        margin-top: -10%;
+        z-index: -1;
+        animation: rotateImage 20s linear infinite;
+    }
+
+    .ch-img-05 {
+        filter: invert(100%) brightness(10000%);
+        position: absolute;
+        width: 25%;
+        opacity: 0.3;
+        left: 55%;
+        margin-top: 25%;
+    }
+
+    .ch-img-08 {
+        filter: invert(51%) sepia(100%) saturate(1000%) hue-rotate(-15deg) brightness(100%) contrast(95%);
+        position: absolute;
+        width: 55%;
+        opacity: 0.5;
+        margin-top: -5%;
+        animation: rotateImage 15s linear infinite;
+        background-repeat: no-repeat;
+    }
+
+    .stvya-logo {
+        position: absolute;
+        filter: invert(100%) brightness(10000%);
+        width: 17%;
+        margin-top: 6.9%;
+        margin-left: 30%;
+    }
+
+}
+
+a:hover {
+    color: #bd8a54;
+}
+
+.home-text {
+    width: 50%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+
+
+
+    .home-stvya {
+        width: fit-content;
+        /* color: white; */
+        filter: invert(100%) brightness(1000%);
+        font-size: 10rem;
+        margin-left: 5%;
+        margin-top: 25%;
+        letter-spacing: 10px;
+        font-weight: 500;
+        font-family: 'Sakana';
+    }
+
+    .home-culxlit {
+        width: 25%;
+        color: #bd8a54;
+        letter-spacing: 3px;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-left: 87%;
+        margin-top: -12.5%;
+    }
+
+    .home-shlok {
+        color: #ffff;
+        /* background-color: red; */
+        font-size: 1.6rem;
+        font-weight: 100;
+        margin: -70px 0 0 15%;
+        letter-spacing: 2px;
+        font-family: 'AstaghfirullohDemoRegular';
+    }
+
+    .home-para {
+        color: #ffff;
+        width: 100%;
+        letter-spacing: 1.5px;
+        margin: 0% 0 0 10%;
+        font-weight: 100;
+    }
+
+}

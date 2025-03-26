@@ -1,0 +1,209 @@
+.container {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: start;
+    gap: 5%;
+}
+
+
+.container .card {
+    /* position: relative; */
+    cursor: pointer;
+    /* width: calc(33.33% - 20px); */
+    height: auto;
+    /* max-height: 300px; */
+}
+
+.container .card .face {
+    width: 350px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.container .card .face.face1 {
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.container .card:hover .face.face1 {
+    background: #ff0057;
+    transform: translateY(0);
+}
+
+.container .card .face.face1 .content {
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content {
+    opacity: 1;
+}
+
+.container .card .face.face1 .content img {
+    max-width: 190px;
+    margin: 0 0 0 60px;
+}
+
+.container .card .face.face1 .content h3 {
+    margin: 0px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: consolas;
+}
+
+
+.container .card .face.face2 {
+    position: relative;
+    background: white;
+    display: flex;
+    font-family: consolas;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+    height: fit-content;
+
+    p {
+        display: none;
+    }
+}
+
+.container .card:hover .face.face2 {
+    transform: translateY(0);
+
+    p {
+        display: block;
+    }
+}
+
+.container .card .face.face2 .content p {
+    font-weight: 600;
+    font-size: 1.1rem;
+    /* background-color: red; */
+}
+
+.container .card .face.face2 .content a {
+    margin: 15px 0 0;
+
+}
+
+.container .card .face.face2 .content a:hover {
+    background: #333;
+    color: #fff;
+}
+
+
+.C-club-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+
+    h3 {
+        font-size: 100px;
+        font-weight: 1000;
+        font-family: consolas;
+    }
+}
+
+.C-logo-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.C-main-text {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.C-sub-text {
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+    letter-spacing: 10px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #000;
+}
+
+
+.C-image-div {
+    position: relative;
+
+    .C-deep {
+        position: absolute;
+        width: 13%;
+        margin-top: -1.6%;
+        left: 87%;
+        z-index: 1;
+        filter: invert(100%) brightness(10000%);
+    }
+
+    .C-stavya {
+        position: absolute;
+        width: 10%;
+        margin-top: -4.6%;
+        left: 88%;
+        filter: invert(100%) brightness(10000%);
+    }
+
+    .C-line {
+        position: absolute;
+        left: 88%;
+        width: 10%;
+    }
+
+    .C-chakra08 {
+        position: absolute;
+        width: 60%;
+        /* margin: 5% -5% 0; */
+        opacity: 0.1;
+        z-index: -1;
+        /* background-color: red; */
+        filter: invert(100%) brightness(1000%);
+        animation: rotateImage 15s linear infinite;
+    }
+
+    .C-chakra09 {
+        position: absolute;
+        width: 43%;
+        opacity: 0.1;
+        /* background-color: rebeccapurple; */
+        margin: 30% 0 0 0;
+        left: 55%;
+        z-index: -1;
+        filter: invert(100%) brightness(1000%);
+        animation: rotateImage 15s linear infinite;
+    }
+
+    .C-design {
+        position: absolute;
+        left: 15%;
+        z-index: -1;
+        filter: invert(0%) brightness(0%) contrast(100%);
+        opacity: 0.2;
+        margin: 70% 20% 0 0;
+    }
+
+}

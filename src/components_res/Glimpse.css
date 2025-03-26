@@ -1,0 +1,165 @@
+@media (max-width:992px) {
+    .glimpse-main {
+        /* background-color: red; */
+        margin-top: 15% !important;
+    }
+
+    .glimpse-div {
+        .glimp-stvya {
+            /* background-color: red; */
+            width: 10%;
+            margin: 0.7% 0 0 -4% !important;
+        }
+
+        .glimp-dp-02 {
+            width: 18%;
+            margin: 1% -6% 0 -1%;
+            /* background-color: rebeccapurple; */
+        }
+
+        .stvya-glimp {
+            /* background-color: red; */
+            width: fit-content;
+            margin: 0 0 0 0;
+        }
+
+        .glipm-line-01 {
+            width: 30%;
+            margin: 0 0 0 -2%;
+        }
+    }
+
+    .M-button {
+        .arrow {
+            font-size: 28px !important;
+        }
+
+        .button-text {
+            font-size: 1rem !important;
+            font-weight: 600;
+        }
+    }
+
+
+
+
+}
+
+@media (max-width:768px) {
+    .glimpse-main {
+        /* background-color: red; */
+        margin-top: 100%;
+
+        .button-div {
+            /* background-color: yellow; */
+
+            .arrow {
+                font-size: 20px;
+            }
+
+            .button-text {
+                font-size: 1rem;
+                font-weight: 600;
+            }
+        }
+
+        .glimpse-div {
+            .glimp-stvya {
+                /* background-color: red; */
+                width: 15%;
+                margin: 0 -6% 0 -6%;
+            }
+
+            .glimp-dp-02 {
+                width: 20%;
+                margin: 1% -6% 0 -1%;
+                /* background-color: rebeccapurple; */
+            }
+
+            .stvya-glimp {
+                /* background-color: red; */
+                width: fit-content;
+                margin: 0 0 0 0;
+            }
+
+            .glipm-line-01 {
+                width: 30%;
+                margin: 0 0 0 -2%;
+            }
+        }
+
+
+
+    }
+}
+
+@media (max-width:576px) {
+    .glimp-stvya {
+        width: 20% !important;
+        margin: 0 0 0 -50px !important;
+    }
+
+}
+
+
+@media (max-width:320px) {
+
+    .glimpse-main {
+        /* background-color: red; */
+        /* margin-top: 30% !important; */
+    }
+
+    .button-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+        /* background-color: red; */
+
+        .M-button {
+            .button-text {
+                /* background-color: yellow; */
+                font-size: 1.5rem !important;
+            }
+
+            .arrow {
+                /* background-color: green; */
+                font-size: 25px !important;
+            }
+        }
+
+
+    }
+
+
+    .glimpse-div {
+        /* background-color: red; */
+        width: fit-content;
+
+        h3 {
+            font-size: 1rem !important;
+        }
+
+        .glimp-dp-02 {
+            display: none;
+        }
+
+        .glipm-line-01 {
+            width: 100%;
+            display: none;
+        }
+
+        .glimp-stvya {
+            /* top: 0; */
+            margin: 10% 0 0 -23% !important;
+            /* bottom: 10% !important; */
+            width: 40% !important;
+            /* background-color: red; */
+        }
+
+    }
+
+
+}

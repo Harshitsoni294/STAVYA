@@ -1,0 +1,81 @@
+.nav-main-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: px 10px;
+
+    .nav-links {
+        /* background-color: red; */
+        width: fit-content;
+        margin-right: 10%;
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .ham-div {
+        display: none;
+    }
+
+    a {
+        letter-spacing: 2px;
+        color: #ffff;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        z-index: 40;
+    }
+}
+
+.logo img {
+    margin: 2% 0 0 5%;
+    width: 30%;
+}
+
+.ham-div {
+    display: none;
+}
+
+.hamburgur {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #333;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    animation: slide-down 0.3s ease-in-out;
+}
+
+.mobile-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+    transition: background-color 0.3s;
+}
+
+.mobile-menu a:hover {
+    background-color: #555;
+}
+
+@keyframes slide-down {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

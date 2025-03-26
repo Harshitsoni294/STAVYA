@@ -1,0 +1,399 @@
+@media (max-width:1496px) {
+    .homepage-main {
+
+        .stvya-logo {
+            position: absolute;
+            top: 59%;
+            margin-top: 7%;
+            margin-left: 35%;
+        }
+    }
+
+    .home-stvya {
+        /* font-size: 3rem; */
+        /* margin-left: -1%; */
+        margin: 17% 0 0 0 !important;
+
+        .letter {
+
+            font-size: 8rem;
+            margin-right: -9px;
+        }
+    }
+
+
+    .home-culxlit {
+        width: fit-content;
+        color: #bd8a54;
+
+        font-size: 1.2rem !important;
+        font-weight: 600;
+        margin: -20% 0 0 113% !important;
+
+    }
+
+    .home-shlok {
+        color: #ffff;
+        height: fit-content;
+        font-size: 1.5rem !important;
+        font-weight: 100;
+        margin: -15% 10% 0 10% !important;
+        /* background-color: red; */
+        letter-spacing: 2.5px;
+        font-family: 'AstaghfirullohDemoRegular';
+    }
+
+    .home-para {
+        position: absolute;
+        font-size: 0.9rem;
+        /* background-color: red; */
+        width: 60% !important;
+        font-weight: 100;
+        letter-spacing: 1px;
+        margin: 30% 0 0 2% !important;
+    }
+
+
+}
+
+
+@media (max-width:992px) {
+
+    .homepage-main {
+
+        .stvya-logo {
+            position: absolute;
+            top: 59%;
+            margin-top: 7%;
+            margin-left: 35%;
+        }
+    }
+
+    .home-stvya {
+        /* font-size: 3rem; */
+        /* margin-left: -1%; */
+        margin: 17% 0 0 0 !important;
+
+        .letter {
+
+            font-size: 8rem;
+            margin-right: -9px;
+        }
+    }
+
+
+    .home-culxlit {
+        width: fit-content;
+        color: #bd8a54;
+
+        font-size: 1.2rem !important;
+        font-weight: 600;
+        margin: -20% 0 0 113% !important;
+
+    }
+
+    .home-shlok {
+        color: #ffff;
+        height: fit-content;
+        font-size: 1.5rem !important;
+        font-weight: 100;
+        margin: -15% 10% 0 10% !important;
+        /* background-color: red; */
+        letter-spacing: 2.5px;
+        font-family: 'AstaghfirullohDemoRegular';
+    }
+
+    .home-para {
+        position: absolute;
+        font-size: 0.9rem;
+        /* background-color: red; */
+        width: 60% !important;
+        font-weight: 100;
+        letter-spacing: 1px;
+        margin: 30% 0 0 2% !important;
+    }
+
+
+}
+
+@media (max-width:768px) {
+    .homepage-main {
+        /* background-color: red; */
+        /* margin-top: 15%; */
+        height: 30vh;
+        margin-bottom: 20%;
+
+        .stvya-logo {
+            position: absolute;
+            filter: invert(100%) brightness(10000%);
+            width: 17%;
+            /* background-color: red; */
+            top: 59%;
+            margin-top: 5.3%;
+            margin-left: 33%;
+        }
+    }
+
+    .home-text {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+
+        .home-stvya {
+            font-size: 3rem;
+            /* margin-left: -1%; */
+            margin: 10% 0 0 0%;
+
+
+            .letter {
+                font-size: 6rem;
+                margin-right: -9px;
+            }
+        }
+
+
+
+        .home-culxlit {
+            width: fit-content;
+            color: #bd8a54;
+
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 20% 0 0 1%;
+
+        }
+
+        .home-shlok {
+            color: #ffff;
+            height: fit-content;
+            font-size: 1rem;
+            font-weight: 100;
+            margin: 23% 10% 0 -60%;
+            /* background-color: red; */
+            letter-spacing: 2.5px;
+            font-family: 'AstaghfirullohDemoRegular';
+        }
+
+        .home-para {
+            font-size: 0.9rem;
+            width: 80%;
+            font-weight: 100;
+            letter-spacing: 1px;
+            margin: 1% 0 0 0%;
+        }
+    }
+
+}
+
+@media (max-width:576px) {
+
+    .homepage-main {
+        /* background-color: red; */
+        /* margin-top: 15%; */
+        height: 50vh;
+        /* margin-bottom: 20%; */
+    }
+
+    .home-text {
+        /* background-color: yellow; */
+
+        .home-stvya {
+            /* background-color: red; */
+            /* font-size: 4rem; */
+
+            .letter {
+                font-size: 5rem;
+            }
+        }
+
+        .home-culxlit {
+            /* background-color: yellow; */
+            height: fit-content;
+            margin: 21% 0 0 1%;
+        }
+
+        .home-shlok {
+            /* background-color: blue; */
+            margin: -7% 0 0 10%;
+        }
+
+        .home-para {
+            /* background-color: yellow; */
+        }
+    }
+
+}
+
+
+
+@media (max-width: 420px) {
+
+    .homepage-main {
+        /* background-color: red; */
+        /* margin-top: 15%; */
+        /* height: 30vh; */
+        /* margin-bottom: 20%; */
+    }
+
+    .home-text {
+        /* display: none; */
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+
+        .home-stvya {
+            font-size: 3.5rem;
+            margin-left: 0%;
+            margin-top: 5% !important;
+
+            .letter {
+                font-size: 3.6rem;
+                margin: -2%;
+            }
+        }
+
+
+        .home-culxlit {
+            width: fit-content;
+            color: #bd8a54;
+
+            font-size: 0.7rem !important;
+            font-weight: 600;
+            margin: 16.5% 0 0 -16% !important;
+
+        }
+
+
+        .home-shlok {
+            /* display: none; */
+            color: #ffff;
+            height: fit-content;
+            font-size: 0.6rem !important;
+            font-weight: 100;
+            margin: -6% 0 0 8% !important;
+            letter-spacing: 1.5px;
+            /* font-family: 'Roundelay-Thin'; */
+        }
+
+        .home-para {
+            font-size: 0.7rem;
+            width: 80% !important;
+            font-weight: 100;
+            letter-spacing: 1px;
+            margin: 25% 0 0 0 !important;
+        }
+    }
+
+    .img-div {
+        .ch-img-02 {
+            width: 50%;
+            opacity: 0.5;
+            top: 20%;
+            margin: 0% 0 0 60%;
+
+
+        }
+
+
+
+        .home-text .home-para {
+            font-size: 0.8rem;
+            width: 160%;
+            word-break: break-all;
+        }
+
+        .homepage-main .img-div .ch-img-05 {
+            width: 40%;
+            opacity: 0.9;
+
+        }
+    }
+}
+
+@media (max-width: 320px) {
+
+    .homepage-main {
+        /* background-color: red; */
+        /* margin-top: 15%; */
+        /* height: 30vh; */
+        /* margin-bottom: 20%; */
+    }
+
+    .home-text {
+        /* display: none; */
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+
+        .home-stvya {
+            font-size: 3rem;
+            margin-left: 0%;
+            margin-top: 5% !important;
+
+            .letter {
+                font-size: 2.6rem;
+                margin: -2%;
+            }
+        }
+
+
+        .home-culxlit {
+            width: fit-content;
+            color: #bd8a54;
+
+            font-size: 0.6rem !important;
+            font-weight: 600;
+            margin: 16.5% 0 0 -18% !important;
+
+        }
+
+
+        .home-shlok {
+            /* display: none; */
+            color: #ffff;
+            height: fit-content;
+            font-size: 0.6rem !important;
+            font-weight: 100;
+            margin: -8% 0 0 5% !important;
+            letter-spacing: 1.5px;
+            /* font-family: 'Roundelay-Thin'; */
+        }
+
+        .home-para {
+            font-size: 0.7rem;
+            width: 80% !important;
+            font-weight: 100;
+
+            letter-spacing: 1px;
+            margin: 1% 0 0 0%;
+        }
+    }
+
+    .img-div {
+        .ch-img-02 {
+            width: 50%;
+            opacity: 0.5;
+            top: 20%;
+            margin: 0% 0 0 60%;
+
+
+        }
+
+
+
+        .home-text .home-para {
+            font-size: 0.8rem;
+            width: 160%;
+            word-break: break-all;
+        }
+
+        .homepage-main .img-div .ch-img-05 {
+            width: 40%;
+            opacity: 0.9;
+
+        }
+    }
+}

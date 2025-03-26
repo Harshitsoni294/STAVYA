@@ -1,0 +1,829 @@
+@media (max-width:992px) {
+    .about-para {
+        /* display: none; */
+        /* background-color: red; */
+
+        .about {
+            /* background-color: red; */
+            margin: 0 0 0 5%;
+        }
+
+        .img-eyes {
+            margin: -4% 0 0 13%;
+        }
+
+        .para-01 {
+            font-size: 0.9rem;
+            margin-left: 4%;
+            width: 90%;
+
+        }
+
+        .para-02 {
+            font-size: 0.9rem;
+            margin-left: 4%;
+            width: 90%;
+
+        }
+
+        .para-03 {
+            /* background-color: green !important; */
+            font-size: 0.9rem;
+            width: fit-content;
+            margin: -3% 0 6% 4% !important;
+        }
+    }
+
+    .dp-02 {
+        width: 30%;
+        right: 0;
+        margin: 0 0 0 0;
+        /* background-color: red; */
+    }
+
+    .dp-line {
+        margin: 42px 0 0 71% !important;
+        /* display: none; */
+    }
+
+    .my-div-01 {
+        width: 45% !important;
+        left: 10% !important;
+        top: -0% !important;
+        position: relative;
+        ;
+        /* background-color: red; */
+
+        .contentsy1 {
+            top: 30% !important;
+            left: 18% !important;
+
+            span {
+                color: #ff0057;
+                font-size: 2rem;
+            }
+
+            h4 {
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    .my-div-02 {
+        width: 48% !important;
+        left: -3% !important;
+        top: 15% !important;
+
+        .contentsy2 {
+            top: 30%;
+            left: 15%;
+
+            span {
+                color: #ff0057;
+                font-size: 2rem;
+
+            }
+
+            h4 {
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    .my-div-03 {
+        width: 60% !important;
+        right: -10% !important;
+        top: -3% !important;
+
+        .contentsy3 {
+            top: 26% !important;
+            left: 20% !important;
+
+            span {
+                color: #ff0057;
+                font-size: 2rem;
+
+            }
+
+            h4 {
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .about-main-div {
+
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .about-para {
+        margin-top: 15%;
+        width: 100%;
+
+        h3 {
+            font-weight: 600;
+            /* background-color: yellow; */
+            margin: 0 0 0 4% !important;
+        }
+
+        .img-eyes {
+            width: 10%;
+            margin: -6% 0 0 17% !important;
+        }
+
+        .para-01 {
+            font-size: 1rem;
+            margin-left: 3%;
+            width: 90%;
+
+        }
+
+        .para-02 {
+            font-size: 1rem;
+            margin-left: 3%;
+            width: 90%;
+
+        }
+
+        .para-03 {
+            /* background-color: green !important; */
+            font-size: 1rem;
+            width: fit-content;
+            margin: -3% 0 6% 3% !important;
+        }
+
+    }
+
+
+    .chakra-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        /* background-color: rgb(255, 0, 43); */
+        margin-top: -30%;
+        height: fit-content;
+        width: 100%;
+
+        .my-div-01 {
+            width: fit-content;
+            width: 38%;
+            right: 0%;
+            left: 20%;
+            top: 0%;
+            position: relative;
+
+            .contentsy1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: center;
+                position: absolute;
+                top: 30%;
+                left: 13%;
+            }
+
+            span {
+                /* background-color: yellow; */
+                color: #ff0057;
+                font-size: 2rem;
+            }
+        }
+
+        .my-div-02 {
+            width: 45%;
+            position: relative;
+            right: 0%;
+            top: 12%;
+            margin-left: auto;
+
+            .contentsy2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: center;
+                position: absolute;
+                top: 30%;
+                left: 15%;
+            }
+
+            span {
+                color: #ff0057;
+                font-size: 2rem;
+            }
+
+
+        }
+
+        .my-div-03 {
+            width: 48%;
+            position: relative;
+            bottom: 8%;
+            left: 17%;
+            height: fit-content;
+
+            .contentsy3 {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: center;
+                position: absolute;
+                top: 32%;
+                left: 14%;
+
+                span {
+                    color: #ff0057;
+                    font-size: 2rem;
+                }
+            }
+        }
+
+
+    }
+
+
+    .dp-02 {
+        width: 30%;
+        right: 0;
+        margin: 0 0 0 0;
+        /* background-color: red; */
+    }
+
+    .dp-line {
+        margin: 64px 0 0 71% !important;
+        /* display: none; */
+    }
+}
+
+@media (max-width:576px) {
+    .about-main-div {
+        /* background-color: red; */
+        /* margin-top: -20% !important; */
+
+        .about-para {
+            top: 0%;
+            margin-top: 5%;
+
+            .img-eyes {
+                margin: -7% 0 0 20% !important;
+            }
+        }
+
+        .para-01,
+        .para-02 {
+            /* background-color: green; */
+            font-size: 0.9rem;
+        }
+
+        .para-03 {
+            /* background-color: green !important; */
+            font-size: 0.9rem;
+            width: fit-content;
+            margin: -3% 0 0 3% !important;
+        }
+
+    }
+
+    .chakra-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        /* background-color: rgb(255, 0, 43); */
+        margin-top: -30%;
+        height: fit-content;
+        width: 100%;
+
+        .my-div-01 {
+            width: fit-content;
+            width: 38%;
+            right: 0%;
+            left: 15%;
+            top: -15%;
+            position: relative;
+
+            .contentsy1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: center;
+                position: absolute;
+                top: 30%;
+                left: 14%;
+
+                h4 {
+                    /* background-color: red; */
+                    font-size: 0.9rem;
+                }
+            }
+
+            span {
+                /* background-color: yellow; */
+                color: #ff0057;
+                font-size: 1.8rem;
+            }
+        }
+
+        .my-div-02 {
+            width: 44%;
+            position: relative;
+            right: 5%;
+            top: 0% !important;
+            margin-left: auto;
+
+            .contentsy2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: center;
+                position: absolute;
+                top: 30%;
+                left: 15%;
+
+                h4 {
+                    /* background-color: red; */
+                    font-size: 0.9rem;
+                }
+            }
+
+            span {
+                color: #ff0057;
+                font-size: 2rem;
+            }
+
+
+        }
+
+        .my-div-03 {
+            width: 50%;
+            position: relative;
+            bottom: 20%;
+            left: 11%;
+            height: fit-content;
+
+            .contentsy3 {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: center;
+                position: absolute;
+                top: 32%;
+                left: 16%;
+
+                h4 {
+                    /* background-color: red; */
+                    font-size: 0.9rem;
+                }
+
+                span {
+                    color: #ff0057;
+                    font-size: 2rem;
+                }
+            }
+        }
+
+
+    }
+
+    .stv-logo {
+
+        margin: -11.9% 0 0 73% !important;
+    }
+
+    .dp-02 {
+        width: 30%;
+        right: 0;
+        margin: -4% 0 0 0 !important;
+        /* background-color: red; */
+    }
+
+    .dp-line {
+        margin: 0px 0 0 74% !important;
+        /* display: none; */
+    }
+}
+
+
+@media (max-width: 420px) {
+
+    .about-main-div {
+        margin-top: -25% !important;
+        /* background-color: red; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        .about {
+            margin: 46% 0 0 7% !important;
+            font-size: 1rem;
+            position: absolute;
+            color: #ff6200;
+            font-weight: bold !important;
+            letter-spacing: 3px;
+        }
+
+        .about-line {
+            width: 25%;
+            margin: 52% 0 0 5% !important;
+            position: absolute;
+            height: 2px !important;
+        }
+
+        .img-eyes {
+            display: none;
+        }
+
+        .dp-01 {
+            display: none;
+        }
+    }
+
+    .para-res {
+        /* display: none; */
+        /* background-color: red; */
+    }
+
+
+    .about-para {
+        /* margin: 0 0 0 0; */
+        /* margin-top: 0% !important; */
+        width: 100%;
+        /* background-color: yellow; */
+
+        .para-01 {
+            /* display: none; */
+            margin: 55% 0 0% 6% !important;
+            letter-spacing: 0.2px;
+            font-size: 0.8rem;
+
+
+        }
+
+        .para-02 {
+            display: none;
+            margin: 6% 0 10% 1%;
+            letter-spacing: 0.2px;
+            font-size: 0.4rem;
+            line-height: 10px;
+            visibility: visible;
+        }
+
+        .para-03 {
+            display: none;
+            margin: 6% 0 10% 1%;
+            letter-spacing: 0.2px;
+            font-size: 0.4rem;
+            line-height: 10px;
+            visibility: visible;
+        }
+
+        /* .para-res {
+            margin: -55% 0 10% 1%;
+            letter-spacing: 0.5px;
+            font-size: 0.8rem;
+            line-height: 1rem;
+            visibility: visible;
+        } */
+    }
+
+    .chakra-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        /* background-color: rgb(255, 0, 43); */
+        /* margin-top: -30%; */
+        height: fit-content;
+        width: 100%;
+
+        .my-div-01 {
+            /* background-color: red; */
+            width: fit-content;
+            width: 38% !important;
+            right: 0%;
+            left: 20%;
+            top: -60% !important;
+            position: relative;
+
+            .contentsy1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-size: 1rem;
+                /* position: absolute; */
+                top: 35%;
+                left: 0% !important;
+            }
+
+            span {
+                /* background-color: yellow; */
+                color: #ff0057;
+                font-size: 1rem;
+            }
+
+            h4 {
+                margin: 0 0 0 5%;
+                /* background-color: red; */
+                font-size: 0.7rem !important;
+            }
+        }
+
+        .my-div-02 {
+            /* background-color: red; */
+            width: 44% !important;
+            position: relative;
+            right: -10% !important;
+            top: -40% !important;
+            margin-left: auto;
+
+            .contentsy2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: center;
+                position: absolute;
+                top: 30%;
+                left: 10%;
+            }
+
+
+            span {
+                /* background-color: yellow; */
+                color: #ff0057;
+                font-size: 1rem;
+            }
+
+            h4 {
+                margin: 0 0 0 0%;
+                /* background-color: red; */
+                font-size: 0.6rem !important;
+            }
+        }
+
+        .my-div-03 {
+            width: 46% !important;
+            position: relative;
+            /* bottom: 8%; */
+            left: 8%;
+            top: -65% !important;
+            height: fit-content;
+
+            .contentsy3 {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: center;
+                position: absolute;
+                top: 34% !important;
+                left: 5% !important;
+
+                span {
+                    /* background-color: yellow; */
+                    color: #ff0057;
+                    font-size: 1rem;
+                }
+
+                h4 {
+                    /* background-color: red; */
+                    font-size: 0.6rem;
+                }
+            }
+        }
+
+
+        .dp-line {
+            display: none;
+        }
+
+        .dp-02 {
+            top: -85%;
+            /* background-color: red; */
+        }
+
+        .stv-logo {
+            /* display: none; */
+            position: absolute;
+            /* position: relative; */
+            margin: 0;
+            top: -85%;
+            /* background-color: red; */
+        }
+
+
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .about-main-div {
+        /* background-color: red; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        .about {
+            margin: 45% 0 0 7% !important;
+            font-size: 1rem;
+            position: absolute;
+            color: #ff6200;
+            font-weight: bold !important;
+            letter-spacing: 3px;
+        }
+
+        .about-line {
+            width: 25%;
+            margin: 52% 0 0 5% !important;
+            position: absolute;
+            height: 2px !important;
+        }
+
+        .img-eyes {
+            display: none;
+        }
+    }
+
+    .para-res {
+        background-color: red;
+    }
+
+
+    .about-para {
+        /* margin: 0 0 0 0; */
+        margin-top: 10% !important;
+        width: 100%;
+        /* background-color: yellow; */
+
+        .para-01 {
+            /* display: none; */
+            margin: 55% 0 0% 6% !important;
+            letter-spacing: 0.2px;
+            font-size: 0.8rem;
+
+
+        }
+
+        .para-02 {
+            display: none;
+            margin: 6% 0 10% 1%;
+            letter-spacing: 0.2px;
+            font-size: 0.4rem;
+            line-height: 10px;
+            visibility: visible;
+        }
+
+        .para-03 {
+            display: none;
+            margin: 6% 0 10% 1%;
+            letter-spacing: 0.2px;
+            font-size: 0.4rem;
+            line-height: 10px;
+            visibility: visible;
+        }
+
+        /* .para-res {
+            margin: -55% 0 10% 1%;
+            letter-spacing: 0.5px;
+            font-size: 0.8rem;
+            line-height: 1rem;
+            visibility: visible;
+        } */
+    }
+
+    .chakra-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        /* background-color: rgb(255, 0, 43); */
+        /* margin-top: -30%; */
+        height: fit-content;
+        width: 100%;
+
+        .my-div-01 {
+            /* background-color: red; */
+            width: fit-content;
+            width: 38%;
+            right: 0%;
+            left: 20%;
+            top: -100% !important;
+            position: relative;
+
+            .contentsy1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-size: 1rem;
+                /* position: absolute; */
+                top: 35%;
+                left: 0% !important;
+            }
+
+            span {
+                /* background-color: yellow; */
+                color: #ff0057;
+                font-size: 1rem;
+            }
+
+            h4 {
+                margin: 0 0 0 5%;
+                /* background-color: red; */
+                font-size: 0.7rem !important;
+            }
+        }
+
+        .my-div-02 {
+            width: 42%;
+            position: relative;
+            right: 3%;
+            top: -80% !important;
+            margin-left: auto;
+
+            .contentsy2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: center;
+                position: absolute;
+                top: 30%;
+                left: 15%;
+            }
+
+
+            span {
+                /* background-color: yellow; */
+                color: #ff0057;
+                font-size: 1rem;
+            }
+
+            h4 {
+                margin: 0 0 0 0%;
+                /* background-color: red; */
+                font-size: 0.6rem !important;
+            }
+        }
+
+        .my-div-03 {
+            width: 45%;
+            position: relative;
+            /* bottom: 8%; */
+            left: 0%;
+            top: -100% !important;
+            height: fit-content;
+
+            .contentsy3 {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: center;
+                position: absolute;
+                top: 34% !important;
+                left: 5% !important;
+
+                span {
+                    /* background-color: yellow; */
+                    color: #ff0057;
+                    font-size: 1rem;
+                }
+
+                h4 {
+                    /* background-color: red; */
+                    font-size: 0.6rem;
+                }
+            }
+        }
+
+
+        .dp-line {
+            display: none;
+        }
+
+        .dp-02 {
+            top: -85%;
+            /* background-color: red; */
+        }
+
+        .stv-logo {
+            /* display: none; */
+            position: absolute;
+            /* position: relative; */
+            margin: 0;
+            top: -85%;
+            /* background-color: red; */
+        }
+
+
+    }
+
+}
