@@ -32,9 +32,6 @@ npm run build
 ```
 This will create an optimized production-ready build in the `build/` folder.
 
-## 🎨 Screenshots  
-📸 Showcase screenshots of your app here!  
-
 ## 💡 Contributing  
 Want to contribute? Feel free to raise an issue or submit a pull request!  
 
